@@ -10,7 +10,7 @@
         <?php foreach ($cities as $cityId => $city) : ?>
             <tr>
                 <td><a href="/tp1/city.php?id=<?= $cityId; ?>"><?= $city['name']; ?></a></td>
-                <td><?= $city['country']; ?></td>
+                <td><a href="/tp1/country.php?id=<?= $cityId; ?>"><?= $city['country']; ?></a></td>
             </tr>
         <?php endforeach; ?>
         </table>
