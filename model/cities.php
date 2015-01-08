@@ -3,7 +3,7 @@
 $cities = array(
     [ "name" => "San Francisco", "country" => "USA"       ],
     [ "name" => "Paris",         "country" => "France"    ],
-    [ "name" => "New york",      "country" => "USA"       ],
+    [ "name" => "New York",      "country" => "USA"       ],
     [ "name" => "Berlin",        "country" => "Germany"   ],
     [ "name" => "Bamako",        "country" => "Malia"     ],
     [ "name" => "Buenos Aires",  "country" => "Argentina" ],
