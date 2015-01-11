@@ -20,7 +20,6 @@ $citiesCSV = csvToArray(__DIR__ . '/../csv/cities.csv', ';');
 if (null === $citiesCSV) {
     // recover data from the array
     $cities = $citiesArray;
-}
-else {
+} else {
     $cities = $citiesCSV;
 }

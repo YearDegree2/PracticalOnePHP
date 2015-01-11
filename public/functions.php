@@ -9,11 +9,12 @@ function page_not_found()
 
 function getCitiesInCountry($country, $cities)
 {
-	$citiesInCountry = array();
-	foreach ($cities as $cityId => $city) {
-		if ($city["country"] === $country) {
-			$citiesInCountry[$cityId] = $city;
-		}
-	}
-	return $citiesInCountry;
+    $citiesInCountry = array();
+    foreach ($cities as $cityId => $city) {
+        if ($city["country"] === $country) {
+            $citiesInCountry[$cityId] = $city;
+        }
+    }
+
+    return $citiesInCountry;
 }
