@@ -1,16 +1,7 @@
 <?php
 
 include __DIR__ . '/../model/cities.php';
-
-/**
- * render a 404 page
- */
-function page_not_found()
-{
-    header("HTTP/1.0 404 Not Found");
-    include __DIR__ . '/../view/404.html';
-    die();
-}
+include __DIR__ . '/functions.php';
 
 // retrieve id from url parameter
 $cityId = $_GET["id"];
